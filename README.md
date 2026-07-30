@@ -8,9 +8,13 @@
 
 Four CI jobs that catch the ways a formal proof rots while every check stays green.
 
+**Not yet on PyPI.** The command below is the one that works today. It installs from this repository, pinned to a tag.
+
 ```bash
-pip install proof-to-code-drift
+pip install "git+https://github.com/nickharris808/proof-to-code-drift@v0.1.0"
 ```
+
+`pip install proof-to-code-drift` is the intended command once the name is published. **It 404s today**, which is why it is not the first step above. The tag is pinned rather than `@main` so a reader installs the exact code this README documents.
 
 ## Why this exists
 
@@ -34,9 +38,13 @@ our own corpus: it compiled, it was axiom-clean, and it proved slightly less tha
 
 ## Install
 
+**Not yet on PyPI.** The command below is the one that works today. It installs from this repository, pinned to a tag.
+
 ```bash
-pip install proof-to-code-drift          # zero dependencies
+pip install "git+https://github.com/nickharris808/proof-to-code-drift@v0.1.0"
 ```
+
+`pip install proof-to-code-drift` is the intended command once the name is published. **It 404s today**, which is why it is not the first step above. The tag is pinned rather than `@main` so a reader installs the exact code this README documents.
 
 ## 30-second quickstart
 
