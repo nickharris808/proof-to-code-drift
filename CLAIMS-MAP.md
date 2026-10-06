@@ -6,7 +6,7 @@ This file exists so the CLEAN tag is *auditable* rather than asserted.
 
 ## The line
 
-The filed family nearest this tool terminates in:
+The claim family nearest this tool terminates in:
 
 > *"…recording the recomputed root value over the evidence set … and **refusing to admit a gate
 > decision** in reliance on the evidence set."*
@@ -17,7 +17,7 @@ decision.
 
 ## Claims approached, and the step not performed
 
-| Filed claim family | What it recites | What proof-to-code-drift does instead |
+| Drafted claim family | What it recites | What proof-to-code-drift does instead |
 |---|---|---|
 | Evidence-backed admission gating | maintaining an evidence set backing an admission gate; recomputing a root over it; **refusing to admit a gate decision** in reliance on it | Recomputes the comparison and prints findings. The exit code is a reporting convention, documented as such in `cli.py`. Nothing is admitted or refused. |
 | Docstring-vs-statement conformance | mechanically checking that a recorded claim is not stronger than the checked statement, and **withholding the artifact** when it is | Performs the check and reports it as a **heuristic**. Withholds nothing. |
