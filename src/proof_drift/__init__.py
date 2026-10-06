@@ -8,7 +8,7 @@ Four jobs: **drift** (a bound constant whose values disagree), **vacuity** (a th
 conjunct that is trivially true), **docstring** (prose claiming more than the statement proves),
 and **coverage** (something the tool could not read — reported, never skipped).
 
-CLEAN: CI tooling that reports. Implements no filed apparatus.
+CLEAN: CI tooling that reports. Implements no claimed apparatus.
 """
 from __future__ import annotations
 
